@@ -12,7 +12,7 @@ import os
 app = FastAPI()
 urls = []
 
-database_url = "sqlitecloud://cqkzchjlsk.sqlite.cloud:8860?apikey=TJcaW1eojOJOwitNKvdXmUxG9JMFnluQi5V26yv42Dk"  # **Do not use this in production!**
+database_url = "sqlitecloud://cqkzchjlsk.sqlite.cloud:8860"  # **Do not use this in production!**
 
 conn = apsw.Connection(database_url)
 cursor = conn.cursor()
